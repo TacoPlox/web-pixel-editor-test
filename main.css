@@ -1,0 +1,25 @@
+#tools {
+    display: flex;
+}
+
+#canvas {
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+}
+
+.tool {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: black;
+}
+
+.tool.selected {
+    border-color: blueviolet;
+}
+
+.tool-text {
+    user-select: none;
+}

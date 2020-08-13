@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Editor Test</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Tools -->
+    <div id="tools">
+        <div id="brush" class="tool">
+            <p class="tool-text">Brush</p>
+        </div>
+        <div id="eraser" class="tool">
+            <p class="tool-text">Eraser</p>
+        </div>
+    </div>
+    <!-- Canvas -->
+    <canvas id="canvas">
+
+    </canvas>
+    <!-- Canvas options -->
+    <form id="canvas_options_form">
+        <div>
+            <p>Width</p>
+            <input id="canvas_options_input_width" type="number" step="1" value="50">
+        </div>
+        <div>
+            <p>Height</p>
+            <input id="canvas_options_input_height" type="number" step="1" value="50">
+        </div>
+        <button type="submit">Update Canvas</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
